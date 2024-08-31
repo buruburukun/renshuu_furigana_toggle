@@ -1,0 +1,13 @@
+{
+    "name": "Renshuu Furigana Toggle",
+    "version": "0.1",
+    "description": "Renshuu Furigana Toggle",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.renshuu.org/*"],
+            "css": ["furigana.css"],
+            "js": ["furigana.js"]
+        }
+    ]
+}
